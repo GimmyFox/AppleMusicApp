@@ -28,9 +28,7 @@ struct TabBar: View {
                         Image(systemName: "magnifyingglass")
                     }
             }
-            
-
-
+            Miniplayer()
         })
     }
 }
