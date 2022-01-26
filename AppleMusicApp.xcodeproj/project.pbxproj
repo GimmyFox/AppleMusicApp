@@ -20,6 +20,7 @@
 		9780230927A2047500B543B4 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230827A2047500B543B4 /* BlurView.swift */; };
 		9780230B27A2056300B543B4 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230A27A2056300B543B4 /* SecondScreen.swift */; };
 		9780230D27A2057A00B543B4 /* SecondScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230C27A2057A00B543B4 /* SecondScreenModel.swift */; };
+		9780230F27A2061200B543B4 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230E27A2061200B543B4 /* EmptyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		9780230827A2047500B543B4 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		9780230A27A2056300B543B4 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 		9780230C27A2057A00B543B4 /* SecondScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenModel.swift; sourceTree = "<group>"; };
+		9780230E27A2061200B543B4 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				9780230827A2047500B543B4 /* BlurView.swift */,
 				9780230A27A2056300B543B4 /* SecondScreen.swift */,
 				9780230C27A2057A00B543B4 /* SecondScreenModel.swift */,
+				9780230E27A2061200B543B4 /* EmptyView.swift */,
 			);
 			path = AppleMusicApp;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9780230527A1FE2400B543B4 /* LibraryView.swift in Sources */,
+				9780230F27A2061200B543B4 /* EmptyView.swift in Sources */,
 				9780230327A1FDD000B543B4 /* TabBar.swift in Sources */,
 				9780230B27A2056300B543B4 /* SecondScreen.swift in Sources */,
 				9780230727A2045A00B543B4 /* Miniplayer.swift in Sources */,
