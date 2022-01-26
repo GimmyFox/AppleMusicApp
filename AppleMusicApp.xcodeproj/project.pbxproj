@@ -108,13 +108,13 @@
 		978022D727A1FC6800B543B4 /* AppleMusicApp */ = {
 			isa = PBXGroup;
 			children = (
-				9780230427A1FE2400B543B4 /* LibraryView.swift */,
-				9780230227A1FDD000B543B4 /* TabBar.swift */,
 				978022D827A1FC6900B543B4 /* AppleMusicAppApp.swift */,
 				978022DA27A1FC6900B543B4 /* ContentView.swift */,
 				978022DC27A1FC6A00B543B4 /* Assets.xcassets */,
 				978022DE27A1FC6A00B543B4 /* Preview Content */,
 				9780230627A2045A00B543B4 /* Miniplayer.swift */,
+				9780230227A1FDD000B543B4 /* TabBar.swift */,
+				9780230427A1FE2400B543B4 /* LibraryView.swift */,
 				9780230827A2047500B543B4 /* BlurView.swift */,
 				9780230A27A2056300B543B4 /* SecondScreen.swift */,
 				9780230C27A2057A00B543B4 /* SecondScreenModel.swift */,
