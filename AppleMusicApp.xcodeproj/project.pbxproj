@@ -21,6 +21,7 @@
 		9780230B27A2056300B543B4 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230A27A2056300B543B4 /* SecondScreen.swift */; };
 		9780230D27A2057A00B543B4 /* SecondScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230C27A2057A00B543B4 /* SecondScreenModel.swift */; };
 		9780230F27A2061200B543B4 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230E27A2061200B543B4 /* EmptyView.swift */; };
+		97C3BCA727A4DD0B00B293A8 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCA627A4DD0B00B293A8 /* RadioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		9780230A27A2056300B543B4 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 		9780230C27A2057A00B543B4 /* SecondScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenModel.swift; sourceTree = "<group>"; };
 		9780230E27A2061200B543B4 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		97C3BCA627A4DD0B00B293A8 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,17 +110,12 @@
 		978022D727A1FC6800B543B4 /* AppleMusicApp */ = {
 			isa = PBXGroup;
 			children = (
+				97C3BCA227A4DC6100B293A8 /* View */,
+				97C3BCA127A4DC5700B293A8 /* Model */,
 				978022D827A1FC6900B543B4 /* AppleMusicAppApp.swift */,
 				978022DA27A1FC6900B543B4 /* ContentView.swift */,
 				978022DC27A1FC6A00B543B4 /* Assets.xcassets */,
 				978022DE27A1FC6A00B543B4 /* Preview Content */,
-				9780230627A2045A00B543B4 /* Miniplayer.swift */,
-				9780230227A1FDD000B543B4 /* TabBar.swift */,
-				9780230427A1FE2400B543B4 /* LibraryView.swift */,
-				9780230827A2047500B543B4 /* BlurView.swift */,
-				9780230A27A2056300B543B4 /* SecondScreen.swift */,
-				9780230C27A2057A00B543B4 /* SecondScreenModel.swift */,
-				9780230E27A2061200B543B4 /* EmptyView.swift */,
 			);
 			path = AppleMusicApp;
 			sourceTree = "<group>";
@@ -146,6 +143,52 @@
 				978022F527A1FC6A00B543B4 /* AppleMusicAppUITestsLaunchTests.swift */,
 			);
 			path = AppleMusicAppUITests;
+			sourceTree = "<group>";
+		};
+		97C3BCA127A4DC5700B293A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9780230C27A2057A00B543B4 /* SecondScreenModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97C3BCA227A4DC6100B293A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97C3BCA527A4DCC800B293A8 /* TabBarView */,
+				97C3BCA427A4DCB600B293A8 /* RadioView */,
+				97C3BCA327A4DC9300B293A8 /* LibraryView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97C3BCA327A4DC9300B293A8 /* LibraryView */ = {
+			isa = PBXGroup;
+			children = (
+				9780230A27A2056300B543B4 /* SecondScreen.swift */,
+				9780230E27A2061200B543B4 /* EmptyView.swift */,
+				9780230427A1FE2400B543B4 /* LibraryView.swift */,
+			);
+			path = LibraryView;
+			sourceTree = "<group>";
+		};
+		97C3BCA427A4DCB600B293A8 /* RadioView */ = {
+			isa = PBXGroup;
+			children = (
+				97C3BCA627A4DD0B00B293A8 /* RadioView.swift */,
+			);
+			path = RadioView;
+			sourceTree = "<group>";
+		};
+		97C3BCA527A4DCC800B293A8 /* TabBarView */ = {
+			isa = PBXGroup;
+			children = (
+				9780230627A2045A00B543B4 /* Miniplayer.swift */,
+				9780230827A2047500B543B4 /* BlurView.swift */,
+				9780230227A1FDD000B543B4 /* TabBar.swift */,
+			);
+			path = TabBarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +325,7 @@
 				9780230F27A2061200B543B4 /* EmptyView.swift in Sources */,
 				9780230327A1FDD000B543B4 /* TabBar.swift in Sources */,
 				9780230B27A2056300B543B4 /* SecondScreen.swift in Sources */,
+				97C3BCA727A4DD0B00B293A8 /* RadioView.swift in Sources */,
 				9780230727A2045A00B543B4 /* Miniplayer.swift in Sources */,
 				978022DB27A1FC6900B543B4 /* ContentView.swift in Sources */,
 				978022D927A1FC6900B543B4 /* AppleMusicAppApp.swift in Sources */,
