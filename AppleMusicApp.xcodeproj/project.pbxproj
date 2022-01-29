@@ -22,6 +22,10 @@
 		9780230D27A2057A00B543B4 /* SecondScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230C27A2057A00B543B4 /* SecondScreenModel.swift */; };
 		9780230F27A2061200B543B4 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9780230E27A2061200B543B4 /* EmptyView.swift */; };
 		97C3BCA727A4DD0B00B293A8 /* RadioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCA627A4DD0B00B293A8 /* RadioView.swift */; };
+		97C3BCA927A4DE0600B293A8 /* LazyHGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCA827A4DE0600B293A8 /* LazyHGrid.swift */; };
+		97C3BCAB27A4DE1400B293A8 /* LazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCAA27A4DE1400B293A8 /* LazyVGrid.swift */; };
+		97C3BCAD27A4DE5400B293A8 /* LazyVGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCAC27A4DE5400B293A8 /* LazyVGridModel.swift */; };
+		97C3BCAF27A4DE6600B293A8 /* LazyHGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCAE27A4DE6600B293A8 /* LazyHGridModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		9780230C27A2057A00B543B4 /* SecondScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenModel.swift; sourceTree = "<group>"; };
 		9780230E27A2061200B543B4 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		97C3BCA627A4DD0B00B293A8 /* RadioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioView.swift; sourceTree = "<group>"; };
+		97C3BCA827A4DE0600B293A8 /* LazyHGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGrid.swift; sourceTree = "<group>"; };
+		97C3BCAA27A4DE1400B293A8 /* LazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid.swift; sourceTree = "<group>"; };
+		97C3BCAC27A4DE5400B293A8 /* LazyVGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridModel.swift; sourceTree = "<group>"; };
+		97C3BCAE27A4DE6600B293A8 /* LazyHGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +121,6 @@
 				97C3BCA227A4DC6100B293A8 /* View */,
 				97C3BCA127A4DC5700B293A8 /* Model */,
 				978022D827A1FC6900B543B4 /* AppleMusicAppApp.swift */,
-				978022DA27A1FC6900B543B4 /* ContentView.swift */,
 				978022DC27A1FC6A00B543B4 /* Assets.xcassets */,
 				978022DE27A1FC6A00B543B4 /* Preview Content */,
 			);
@@ -149,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				9780230C27A2057A00B543B4 /* SecondScreenModel.swift */,
+				97C3BCAC27A4DE5400B293A8 /* LazyVGridModel.swift */,
+				97C3BCAE27A4DE6600B293A8 /* LazyHGridModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -156,6 +165,7 @@
 		97C3BCA227A4DC6100B293A8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				978022DA27A1FC6900B543B4 /* ContentView.swift */,
 				97C3BCA527A4DCC800B293A8 /* TabBarView */,
 				97C3BCA427A4DCB600B293A8 /* RadioView */,
 				97C3BCA327A4DC9300B293A8 /* LibraryView */,
@@ -177,6 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				97C3BCA627A4DD0B00B293A8 /* RadioView.swift */,
+				97C3BCA827A4DE0600B293A8 /* LazyHGrid.swift */,
+				97C3BCAA27A4DE1400B293A8 /* LazyVGrid.swift */,
 			);
 			path = RadioView;
 			sourceTree = "<group>";
@@ -321,13 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97C3BCAF27A4DE6600B293A8 /* LazyHGridModel.swift in Sources */,
+				97C3BCA927A4DE0600B293A8 /* LazyHGrid.swift in Sources */,
 				9780230527A1FE2400B543B4 /* LibraryView.swift in Sources */,
 				9780230F27A2061200B543B4 /* EmptyView.swift in Sources */,
 				9780230327A1FDD000B543B4 /* TabBar.swift in Sources */,
 				9780230B27A2056300B543B4 /* SecondScreen.swift in Sources */,
 				97C3BCA727A4DD0B00B293A8 /* RadioView.swift in Sources */,
+				97C3BCAB27A4DE1400B293A8 /* LazyVGrid.swift in Sources */,
 				9780230727A2045A00B543B4 /* Miniplayer.swift in Sources */,
 				978022DB27A1FC6900B543B4 /* ContentView.swift in Sources */,
+				97C3BCAD27A4DE5400B293A8 /* LazyVGridModel.swift in Sources */,
 				978022D927A1FC6900B543B4 /* AppleMusicAppApp.swift in Sources */,
 				9780230927A2047500B543B4 /* BlurView.swift in Sources */,
 				9780230D27A2057A00B543B4 /* SecondScreenModel.swift in Sources */,

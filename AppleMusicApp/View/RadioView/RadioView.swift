@@ -12,7 +12,10 @@ struct RadioView: View {
         NavigationView {
             ScrollView {
                 VStack {
-
+                    Divider()
+                    LazyHStack()
+                    Divider()
+                    LazyVStack()
                 }
             }
             .navigationTitle("Радио")
