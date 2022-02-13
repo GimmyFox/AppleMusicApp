@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TabBar: View {
+    @State var expand: Bool = false
+    @Namespace var animation
+    
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom), content: {
             
@@ -22,13 +25,13 @@ struct TabBar: View {
                         Text("Радио")
                         Image(systemName: "dot.radiowaves.left.and.right")
                     }
-                Text("Search")
+                SearchView()
                     .tabItem {
                         Text("Поиск")
                         Image(systemName: "magnifyingglass")
                     }
             }
-            Miniplayer()
+            Miniplayer(animation: animation, expand: $expand)
         })
     }
 }

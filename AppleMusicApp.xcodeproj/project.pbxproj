@@ -28,6 +28,13 @@
 		97C3BCAB27A4DE1400B293A8 /* LazyVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCAA27A4DE1400B293A8 /* LazyVGrid.swift */; };
 		97C3BCAD27A4DE5400B293A8 /* LazyVGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCAC27A4DE5400B293A8 /* LazyVGridModel.swift */; };
 		97C3BCAF27A4DE6600B293A8 /* LazyHGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C3BCAE27A4DE6600B293A8 /* LazyHGridModel.swift */; };
+		97E012F827B97E0F002278EB /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E012F727B97E0F002278EB /* SearchView.swift */; };
+		97E012FA27B97E35002278EB /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E012F927B97E35002278EB /* PickerView.swift */; };
+		97E012FC27B97E61002278EB /* LazyVCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E012FB27B97E61002278EB /* LazyVCollection.swift */; };
+		97E012FE27B97EA7002278EB /* EmptySearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E012FD27B97EA7002278EB /* EmptySearchableView.swift */; };
+		97E0130127B97EFD002278EB /* ViewInsideCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0130027B97EFD002278EB /* ViewInsideCollectionView.swift */; };
+		97E0130327B97F36002278EB /* SmallLazyHCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0130227B97F36002278EB /* SmallLazyHCollection.swift */; };
+		97E0130527B97F77002278EB /* MainLazyHCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E0130427B97F77002278EB /* MainLazyHCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +79,13 @@
 		97C3BCAA27A4DE1400B293A8 /* LazyVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGrid.swift; sourceTree = "<group>"; };
 		97C3BCAC27A4DE5400B293A8 /* LazyVGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridModel.swift; sourceTree = "<group>"; };
 		97C3BCAE27A4DE6600B293A8 /* LazyHGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridModel.swift; sourceTree = "<group>"; };
+		97E012F727B97E0F002278EB /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		97E012F927B97E35002278EB /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		97E012FB27B97E61002278EB /* LazyVCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVCollection.swift; sourceTree = "<group>"; };
+		97E012FD27B97EA7002278EB /* EmptySearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchableView.swift; sourceTree = "<group>"; };
+		97E0130027B97EFD002278EB /* ViewInsideCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInsideCollectionView.swift; sourceTree = "<group>"; };
+		97E0130227B97F36002278EB /* SmallLazyHCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallLazyHCollection.swift; sourceTree = "<group>"; };
+		97E0130427B97F77002278EB /* MainLazyHCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLazyHCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +185,7 @@
 		97C3BCA227A4DC6100B293A8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				97E012F527B97DD6002278EB /* SearchView */,
 				978022DA27A1FC6900B543B4 /* ContentView.swift */,
 				97C3BCA527A4DCC800B293A8 /* TabBarView */,
 				97C3BCA427A4DCB600B293A8 /* RadioView */,
@@ -207,6 +222,36 @@
 				9780230227A1FDD000B543B4 /* TabBar.swift */,
 			);
 			path = TabBarView;
+			sourceTree = "<group>";
+		};
+		97E012F527B97DD6002278EB /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				97E012FF27B97ED9002278EB /* InsideView */,
+				97E012F627B97DE0002278EB /* InsideSearchView */,
+				97E012F727B97E0F002278EB /* SearchView.swift */,
+				97E012F927B97E35002278EB /* PickerView.swift */,
+				97E012FB27B97E61002278EB /* LazyVCollection.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		97E012F627B97DE0002278EB /* InsideSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				97E012FD27B97EA7002278EB /* EmptySearchableView.swift */,
+			);
+			path = InsideSearchView;
+			sourceTree = "<group>";
+		};
+		97E012FF27B97ED9002278EB /* InsideView */ = {
+			isa = PBXGroup;
+			children = (
+				97E0130027B97EFD002278EB /* ViewInsideCollectionView.swift */,
+				97E0130227B97F36002278EB /* SmallLazyHCollection.swift */,
+				97E0130427B97F77002278EB /* MainLazyHCollection.swift */,
+			);
+			path = InsideView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,15 +386,22 @@
 			files = (
 				97C3BCAF27A4DE6600B293A8 /* LazyHGridModel.swift in Sources */,
 				97C3BCA927A4DE0600B293A8 /* LazyHGrid.swift in Sources */,
+				97E0130327B97F36002278EB /* SmallLazyHCollection.swift in Sources */,
+				97E012FA27B97E35002278EB /* PickerView.swift in Sources */,
 				9780230527A1FE2400B543B4 /* LibraryView.swift in Sources */,
+				97E012FC27B97E61002278EB /* LazyVCollection.swift in Sources */,
 				9780230F27A2061200B543B4 /* EmptyView.swift in Sources */,
 				9780230327A1FDD000B543B4 /* TabBar.swift in Sources */,
 				9780230B27A2056300B543B4 /* SecondScreen.swift in Sources */,
+				97E012FE27B97EA7002278EB /* EmptySearchableView.swift in Sources */,
+				97E012F827B97E0F002278EB /* SearchView.swift in Sources */,
 				97C3BCA727A4DD0B00B293A8 /* RadioView.swift in Sources */,
+				97E0130127B97EFD002278EB /* ViewInsideCollectionView.swift in Sources */,
 				97C3BCAB27A4DE1400B293A8 /* LazyVGrid.swift in Sources */,
 				9780230727A2045A00B543B4 /* Miniplayer.swift in Sources */,
 				978022DB27A1FC6900B543B4 /* ContentView.swift in Sources */,
 				97C3BCAD27A4DE5400B293A8 /* LazyVGridModel.swift in Sources */,
+				97E0130527B97F77002278EB /* MainLazyHCollection.swift in Sources */,
 				978022D927A1FC6900B543B4 /* AppleMusicAppApp.swift in Sources */,
 				9780230927A2047500B543B4 /* BlurView.swift in Sources */,
 				9780230D27A2057A00B543B4 /* SecondScreenModel.swift in Sources */,
