@@ -13,14 +13,11 @@ struct SearchView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
                 VStack {
-                    LazyVCollection()
+                    SearchViewUI()
                 }
                 .navigationTitle("Поиск")
-            }
-
-            .searchable(text: $search, placement: .navigationBarDrawer(displayMode: .always), prompt: "Артисты, песни, тексты и др.") {
+                .searchable(text: $search, placement: .navigationBarDrawer(displayMode: .always), prompt: "Артисты, песни, тексты и др.") {
                 VStack {
                     PickerView()
                     HStack {
